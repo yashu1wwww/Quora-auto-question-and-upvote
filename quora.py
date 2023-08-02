@@ -12,9 +12,9 @@ driver = webdriver.Chrome()
 driver.get("https://www.quora.com/?time=1690983559898915&uid=449470134&unh=ff66459ec1f9a2ad7b10a9a2a796023c")
 
 # Log in to Quora
-driver.find_element_by_name("email").send_keys("yashwanth6675@gmail.com") #replace with your gmail
+driver.find_element_by_name("email").send_keys("quora1675@gmail.com") #replace with your gmail
 time.sleep(3)
-driver.find_element_by_name("password").send_keys("Yashu123@#$%") #replace with your password
+driver.find_element_by_name("password").send_keys("quora11@#") #replace with your password
 time.sleep(2)
 driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div[4]/button/div/div/div').click() #login button
 time.sleep(5)
