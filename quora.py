@@ -22,7 +22,7 @@ driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div/div[3]/div/div/di
 time.sleep(3)
 
 #ask a question....
-driver.find_element_by_css_selector("#root > div > div:nth-child(2) > div > div > div > div > div.q-flex.ModalContainerInternal___StyledFlex-s8es4q-2.modal_content_inner.qu-flexDirection--column.qu-bg--white.qu-overflowY--auto.qu-borderAll.qu-alignSelf--center > div > div > div.q-flex.qu-flexDirection--column.qu-overflowY--auto > div.q-relative.qu-display--flex.qu-flexDirection--column > div > div.q-box > div > div > div > div > div.q-box.qu-pt--small > div > div > div.q-flex.qu-alignItems--center.qu-bg--white.qu-borderColor--gray.qu-hover--borderColor--blue.qu-hover--zIndex--1.qu-borderBottom.qu-pb--small.InputStyleWrapper___StyledFlex-sc-1d0740s-0 > div > div > textarea").send_keys("nothing mobile found on road") #question feed 
+driver.find_element_by_css_selector("#root > div > div:nth-child(2) > div > div > div > div > div.q-flex.ModalContainerInternal___StyledFlex-s8es4q-2.modal_content_inner.qu-flexDirection--column.qu-bg--white.qu-overflowY--auto.qu-borderAll.qu-alignSelf--center > div > div > div.q-flex.qu-flexDirection--column.qu-overflowY--auto > div.q-relative.qu-display--flex.qu-flexDirection--column > div > div.q-box > div > div > div > div > div.q-box.qu-pt--small > div > div > div.q-flex.qu-alignItems--center.qu-bg--white.qu-borderColor--gray.qu-hover--borderColor--blue.qu-hover--zIndex--1.qu-borderBottom.qu-pb--small.InputStyleWrapper___StyledFlex-sc-1d0740s-0 > div > div > textarea").send_keys("no words to tell") #question feed 
 time.sleep(4)
 driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/button[2]/div/div/div').click() #add question submit button
 time.sleep(3)
@@ -33,7 +33,7 @@ driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div[3]/div/div/div/div[
 #post it...
 #driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div/div/div[2]/div/div/div[1]/div[3]/div/div/div/div[2]/div/div[1]/div').click() #click on post button
 #time.sleep(3)
-#driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div/div[2]/div/div/div[1]/div').send_keys("my first tweet") #text in question button
+#driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div/div[2]/div/div/div[1]/div').send_keys("my first post") #text in question button
 #time.sleep(3)
 #driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]').click() #post button click
 
